@@ -244,7 +244,7 @@
             doc.text(`Total Amanda: R$ ${totalAmanda.toFixed(2)}`, 20, y + 20);
 
             // Gerar e baixar o PDF
-            doc.save("tabela_divisao_uber.pdf");
+            doc.save("tabela_divisao.pdf");
         }
 
         // Função para trocar entre os temas claro e escuro
